@@ -97,15 +97,80 @@
         </section>
 
         <section id="board">
-            <h2>공지사항</h2>
-            <table>
-
-            </table>
+            <h2>최신 뉴스 & 공지사항</h2>
+            <div class="board_wrapper">
+                <img src="ASTRO.webp" alt="astro character" />
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="borad_title">
+                                <button class="board_category ai">Artificial Intelligence</button>
+                                <p>How Salesforce Builds Trust in Our AI Products</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="borad_title">
+                                <button class="board_category sustainability">Sustainability</button>
+                                <p>100M Trees Funded by 2030: Evaluating Our Progress</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td class="borad_title">
+                                <button class="board_category ai">Artificial Intelligence</button>
+                                <p>MuleSoft Launches AsyncAPI to Help Build AI-Powered Customer Experiences in Real time</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="borad_title">
+                                <button class="board_category awards">Awards and Recognition</button>
+                                <p>Tableau Names a Leader in Garner Magic Qusdrant for Analytics and Buisness Intelligence Playforms for 12th Time</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">더 읽기..</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         
+        <section id="seminar">
+            <h2>Salesforce 세미나에 등록하세요!</h2>
+            <div class="seminar_register">
+                <form action="">
+                    <label for="name" class="name">이름 </label>
+                    <input type="text" name="name" id="name" placeholder="홍길동" />
+                    <br>
+                    <div id="gender">
+                        성별
+                        <label for="male" class="gender">남성</label>
+                        <input type="checkbox" name="male" class="checker">
+                        <label for="male" class="gender">여성</label>
+                        <input type="checkbox" name="female" class="checker">
+                    </div>
+                    <label for="expect" class="expect_label">세미나에서 기대하는 점 </label>
+                    <br>
+                    <textarea name="expect" id="expect" placeholder="입력해주세요"></textarea>
+                    <br>
+                    <button type="submit" class="btn">제출</button>
+                </form>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y-CcQC_TweI?si=3LS9IscB9gHycaTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <a href="#"><img class="logo" src="./salesforce-with-type-logo.svg" alt="logo" /></a>
+        <nav>
+            <ul>
+                <li><a>법적 고지</a></li>
+                <li><a>서비스 약관</a></li>
+                <li><a>*개인 정보</a></li>
+                <li><a>책임 공개</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
